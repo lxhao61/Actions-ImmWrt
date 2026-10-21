@@ -47,7 +47,7 @@ merge_package main https://github.com/Lienol/openwrt-package.git package/chajian
 ## 提取 lib（修复更新固件配置丢失）
 merge_package main https://github.com/openwrt/openwrt.git target/linux/bcm53xx/base-files target/linux/bcm53xx/base-files/lib
 ## 提取 tailscale（兼容如下 golang 27.x）
-merge_package openwrt-25.12 https://github.com/immortalwrt/packages.git feeds/packages/net net/tailscale
+merge_package 25.12 https://github.com/Lienol/openwrt-packages.git feeds/packages/net net/tailscale
 ## 提取 vlmcsd
 merge_package main https://github.com/Lienol/openwrt-package.git feeds/packages/net other/lean/vlmcsd
 ## 提取 luci-app-hd-idle
